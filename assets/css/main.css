@@ -25,7 +25,31 @@ h3 {
     display: flex;
 }
 
+.summary {
+    font: 15px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
 
+h1>a,
+h2>a,
+h3>a,
+h4>a,
+h5>a {
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+h3>a:hover,
+h4>a:hover {
+    color: black;
+    text-decoration: underline #f72210;
+}
+
+h4 {
+    font-size: 17px;
+}
 
 /*
 =========================================================
@@ -60,10 +84,6 @@ Header
     font-size: 19px;
     background-color: white;
     border-bottom: 1px solid #f4f5f6;
-}
-
-.news-navbar>li>a {
-    color: black;
 }
 
 .news-navbar>li>a:hover {
@@ -123,6 +143,11 @@ Main
 =========================================================
 */
 
+
+/*
+=========================================================
+Featured
+*/
 .main {
     background-color: white;
     max-width: 1310px;
@@ -161,7 +186,7 @@ Main
     bottom: 0;
     left: 0;
     z-index: 1;
-    background-color: rgba(255,255,255,.9);
+    background-color: rgba(255, 255, 255, .9);
     font: bold 17px/16px "Roboto Condensed", sans-serif;
     padding: 8px 15px 9px;
 }
@@ -174,14 +199,10 @@ Main
     text-decoration: none;
 }
 
-h3>a {
-    color: black;
-}
-
-h3>a:hover {
-    color: black;
-    text-decoration: underline #f72210;
-}
+/*
+=========================================================
+Culture Section
+*/
 
 .culture-stories {
     padding: 10px 0;
@@ -209,13 +230,8 @@ h3>a:hover {
     padding: 2px 5px;
 }
 
-.tags> a,
-.title> a {
-    color: black;
-}
-
-.tags> a:hover,
-.tags> a:hover {
+.tags>a:hover,
+.tags>a:hover {
     text-decoration: none;
 }
 
@@ -230,4 +246,28 @@ h3>a:hover {
 
 .culture-item .summary {
     margin-bottom: 10px;
+}
+
+/*
+=========================================================
+More Stories section
+*/
+
+.snippet {
+    display: flex;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-top: 1px solid #ddd;
+}
+
+.snippet .image {
+    width: 95px;
+    margin: 0 15px 10px 0;
+}
+
+.snippet .info {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    line-height: 20px;
 }
