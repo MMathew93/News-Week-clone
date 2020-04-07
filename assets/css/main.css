@@ -25,6 +25,8 @@ h3 {
     display: flex;
 }
 
+
+
 /*
 =========================================================
 Header
@@ -159,7 +161,7 @@ Main
     bottom: 0;
     left: 0;
     z-index: 1;
-    background-color: rgba(24, 26, 27, 0.9);
+    background-color: rgba(255,255,255,.9);
     font: bold 17px/16px "Roboto Condensed", sans-serif;
     padding: 8px 15px 9px;
 }
@@ -185,6 +187,11 @@ h3>a:hover {
     padding: 10px 0;
 }
 
+.culture-items {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
 .culture-item {
     flex: 1;
     padding-left: 10px;
@@ -197,13 +204,30 @@ h3>a:hover {
     bottom: 0;
     left: 0;
     z-index: 1;
-    background-color: rgba(24, 26, 27, 0.9);
-    font: bold 17px/16px "Roboto Condensed", sans-serif;
-    padding: 8px 15px 9px;
+    background-color: #c2d4d7;
+    font: "Roboto Condensed", sans-serif;
+    padding: 2px 5px;
 }
 
-.culture-item .image {
+.tags> a,
+.title> a {
+    color: black;
+}
+
+.tags> a:hover,
+.tags> a:hover {
+    text-decoration: none;
+}
+
+.image {
     position: relative;
-    width: 155px;
-    object-fit: cover;
+}
+
+.culture-item .image img {
+    width: 100%;
+    position: relative;
+}
+
+.culture-item .summary {
+    margin-bottom: 10px;
 }
