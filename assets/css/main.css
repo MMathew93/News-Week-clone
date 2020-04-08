@@ -38,6 +38,7 @@ h2>a,
 h3>a,
 h4>a,
 h5>a {
+    font: "Roboto Condensed",sans-serif;
     color: black;
 }
 
@@ -88,6 +89,11 @@ Header
     padding: 10px;
 }
 
+.header-date {
+    color: inherit;
+    font: bold 14px/14px "Roboto Condensed",sans-serif;
+}
+
 .logo>img {
     margin-top: 10px;
 }
@@ -107,6 +113,31 @@ Header
 .news-navbar>li>a:hover {
     text-decoration: none;
     color: #f72210;
+}
+
+.signin {
+    color: white;
+    font: bold 18px/18px "Roboto Condensed", sans-serif;
+    padding-right: 10px;
+}
+
+.subscribe {
+    color: #f72210;
+    background-color: white;
+    font: bold 14px/14px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px 3px;
+}
+
+.header-signin> a:first-child:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header-signin> a:hover {
+    color: #f72210;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 992px) {
@@ -187,6 +218,8 @@ Featured
 .block-title {
     text-transform: uppercase;
     padding-bottom: 11px;
+    font: bold 12px "Roboto Condensed", sans-serif;
+    color: rgba(3,3,3,.4);
 }
 
 .wrap {
