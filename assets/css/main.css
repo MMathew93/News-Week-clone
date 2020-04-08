@@ -9,7 +9,7 @@ body {
     color: #333;
     font-size: 13px;
     line-height: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
 }
 
 article {
@@ -108,6 +108,7 @@ Header
     font-size: 19px;
     background-color: white;
     border-bottom: 1px solid #f4f5f6;
+    font-weight: 900;
 }
 
 .news-navbar>li>a:hover {
@@ -117,14 +118,14 @@ Header
 
 .signin {
     color: white;
-    font: bold 18px/18px "Roboto Condensed", sans-serif;
+    font: bold 20px "Roboto Condensed", sans-serif;
     padding-right: 10px;
 }
 
 .subscribe {
     color: #f72210;
     background-color: white;
-    font: bold 14px/14px "Roboto Condensed",sans-serif;
+    font: bold 20px "Roboto Condensed",sans-serif;
     text-transform: uppercase;
     display: inline-block;
     padding: 6px 3px;
@@ -460,4 +461,63 @@ ul>.flex-xs {
 .sign-up>a:hover {
     color: black;
     text-decoration: none;
+}
+
+/*
+========================================================
+LOWER SECTION
+========================================================
+*/
+
+.lower-section {
+    margin-top: 20px;
+}
+
+/*
+========================================================
+Magazine Section
+*/
+
+.magazine {
+
+}
+
+.magazine-title {
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.magazine-title .block-title {
+    padding: 0;
+    font: bold 22px "Roboto Condensed", sans-serif;
+    color: black;
+}
+
+.cover {
+    width: 25%;
+    padding: 0 15px;
+    position: relative;
+}
+
+.top-row {
+    align-items: center;
+}
+
+.top-row1 {
+
+}
+
+.bottom-row {
+
+}
+
+.row-box {
+
+}
+
+.box {
+    position: relative;
 }
