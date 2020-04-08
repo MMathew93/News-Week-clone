@@ -310,6 +310,10 @@ Right Column
     padding-right: 15px;
 }
 
+.col3-upper {
+    margin-bottom: 25px;
+}
+
 .summary>a {
     font-weight: bold;
 }
@@ -370,4 +374,12 @@ ul>.flex-xs {
 
 .debate-box-b {
     border-top: 4px solid #1c87fb;
+}
+
+.latest-news>article:first-of-type {
+    border: none;
+}
+
+.latest-news>.snippet>.image>img {
+    width: auto;
 }
